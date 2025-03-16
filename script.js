@@ -1,7 +1,11 @@
 // API URLs and keys
-const IP_API_URL = 'https://api.ipgeolocation.io/ipgeo?apiKey=67c08b6aac2e464288ac61d6a6edc914&ip=';
-const MOBILE_API_URL = 'http://apilayer.net/api/validate?access_key=5527f94a753c05c5ee966d1a781315d8&number=';
-const DOMAIN_API_URL = 'https://www.whoisxmlapi.com/whoisserver/WhoisService?apiKey=at_hOivq3Zs32vLRZ7hPGydIVMtKVoC2&domainName=';
+// ADD YOUR API CODE
+// website link   https://ipgeolocation.io/
+const IP_API_URL = 'https://api.ipgeolocation.io/ipgeo?apiKey=YOUR_API_CODE&ip=';
+// website link   https://apilayer.com/
+const MOBILE_API_URL = 'http://apilayer.net/api/validate?access_key=YOUR_API_CODE&number=';
+// website link    https://www.whoisxmlapi.com/
+const DOMAIN_API_URL = 'https://www.whoisxmlapi.com/whoisserver/WhoisService?apiKey=YOUR_API_CODE&domainName=';
 
 
 
