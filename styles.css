@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.search-box {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-box {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Domain Information Styles */
+.domain-info h3 {
+    color: #007bff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.domain-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.domain-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.domain-info ul li {
+    background-color: #e9ecef;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Mobile Number Information Styles */
+.mobile-info h3 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.mobile-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* IP Address Information Styles */
+.ip-info h3 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.ip-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.ip-info h4 {
+    color: #007bff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    font-size: 14px;
+}
