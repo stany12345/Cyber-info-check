@@ -7,6 +7,7 @@ const MOBILE_API_URL = 'http://apilayer.net/api/validate?access_key=YOUR_API_COD
 // website link    https://www.whoisxmlapi.com/
 const DOMAIN_API_URL = 'https://www.whoisxmlapi.com/whoisserver/WhoisService?apiKey=YOUR_API_CODE&domainName=';
 
+const apiKey = 'YOUR_API_CODE'; // Replace with your Google Safe Browsing API key
 
 
 
